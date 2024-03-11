@@ -507,14 +507,95 @@ a:hover {
 /* Mobile: width < 740px */
 @media only screen and (max-width: 46.1875em ) {
 
+  .taskbar {
+    height: 100px;
+    font-size: 300%;
+    align-items: center;
+  }
+  
+   .nhat {
+    font-size: 25px;
+  }
+
+  .member {
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 150px;
+  }
+
+  .bg2 {
+    display:flex;
+    justify-content: space-around;
+  }
+
+  .pfban1 {
+    position: relative;
+    /* right: 50px; */
+    /* margin-right: 500px; */
+  }
+
+  .edit-pic1 {
+    flex-direction:column;
+    gap: 10px;
+    position: relative;
+    left: 50px;
+    /* margin-right: 900px; */
+  }
+  
+  .edit-pic2 {
+    flex-direction:column;
+    gap: 10px;
+    position: relative;
+    left: 50px;
+  }
+
 }
 
 /* Tablet: width >= 740px and width < 1024px */ 
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  
+  .taskbar {
+    height: 100px;
+    font-size: 300%;
+    align-items: center;
+  }
+  
+   .nhat {
+    font-size: 25px;
+  }
+
   .member {
+    display: flex;
     flex-direction: column;
     gap: 30px;
     margin-left: 300px;
   }
+
+  .bg2 {
+    display:flex;
+    justify-content: space-around;
+  }
+
+  .pfban1 {
+    position: relative;
+    /* right: 50px; */
+    /* margin-right: 500px; */
+  }
+
+  .edit-pic1 {
+    flex-direction:column;
+    gap: 10px;
+    position: relative;
+    left: 50px;
+    /* margin-right: 900px; */
+  }
+  
+  .edit-pic2 {
+    flex-direction:column;
+    gap: 10px;
+    position: relative;
+    left: 50px;
+  }
+
  
 }
